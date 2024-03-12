@@ -1,0 +1,1 @@
+export const letterEvent=()=>{const t=document.querySelectorAll(".introContent ul li span em");for(let e=0;e<t.length;e++)setTimeout((()=>{t[e].classList.add("active")}),`${e}00`)};
