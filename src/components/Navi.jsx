@@ -8,7 +8,7 @@ const Navi = () => {
             <ul>
                <Link to='/apps'>Project</Link>
                <Link to='/'>Home</Link>
-               <Link to='/web'>Websites</Link>
+               <Link to='/web'>Website</Link>
             </ul>
         </div>
      )
