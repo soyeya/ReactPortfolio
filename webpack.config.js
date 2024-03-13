@@ -41,7 +41,11 @@ module.exports = {
          }),
          new CopyPlugin({ patterns: [{ from: 'src/assets/img', to: 'assets/img' }]}),
          new CopyPlugin({ patterns: [{ from: 'src/assets/css', to: 'assets/css' }]}),
-         new CopyPlugin({ patterns: [{ from: 'src/js', to: 'js' }]})
+         new CopyPlugin({ patterns: [{ from: 'src/js', to: 'js' }]}),
+
+        require('@babel/plugin-proposal-private-property-in-object').default,
+        require('@babel/plugin-proposal-private-methods').default
+
          
      ],
      module : {
