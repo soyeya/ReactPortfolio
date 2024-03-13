@@ -31,7 +31,7 @@ const ReactApp = () => {
         <h3 className="title">React Project</h3>
         <div className={ project01 ? 'projectContent up' : 'projectContent'}>
             <ul>
-               <span style={{"color" : "#f017de"}}>Banapresso</span><a href="https://soyeya.github.io/banapresso/" target="_blank" className="site"> go to site</a>
+               <span style={{"color" : "#f017de"}}>Banapresso</span><a href="https://soyeya.github.io/banapresso/" target="_blank" rel="noreferrer noopener" className="site"> go to site</a>
                <li><p><strong>Info</strong> 인기있는 커피숍 서비스를 구현 _ 배달앱</p></li>
                <li><p><strong>Skills</strong> React.js, Webpack, Babel, Database : msw</p></li>
                <li><p><strong>요구사항 분석</strong></p>
@@ -52,7 +52,7 @@ const ReactApp = () => {
         </div>
          <div className={ project02 ? 'projectContent up' : 'projectContent'}>
              <ul>
-                <span>이모저모 ezpz</span><a href="https://soyeya.github.io/ezpz_app/" className="site" target="_blank"> go to site</a>
+                <span>이모저모 ezpz</span><a href="https://soyeya.github.io/ezpz_app/" className="site" target="_blank" rel="noreferrer noopener"> go to site</a>
                 <li><p><strong>Info</strong> 일상에 필요한 생활 꿀팁을 모은 서울정보앱</p></li>
                 <li><p><strong>Skills</strong> React.js, Webpack, Babel, 오픈 API 사용</p></li>
                 <li><p><strong>요구사항 분석</strong></p>

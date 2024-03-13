@@ -1,4 +1,4 @@
-import React , { useState, useEffect } from 'react';
+import React , { useEffect } from 'react';
 import Page from './Pages.jsx';
 import { letterEvent } from '../js/home.js';
 import Navi from './Navi.jsx';

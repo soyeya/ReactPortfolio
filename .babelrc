@@ -5,6 +5,13 @@
         { "targets": { "browsers": ["last 2 versions", ">= 5% in KR"] } }
       ],
       "@babel/preset-react"
+    ],
+    
+    "plugins": [
+      
+      "@babel/plugin-proposal-private-property-in-object",
+      "@babel/plugin-proposal-private-methods"
+
     ]
     
   }
