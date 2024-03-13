@@ -6,7 +6,7 @@ const Navi = () => {
      return(
         <div className="nav">
             <ul>
-               <Link to='/apps'>App Project</Link>
+               <Link to='/apps'>Project</Link>
                <Link to='/'>Home</Link>
                <Link to='/web'>Websites</Link>
             </ul>
